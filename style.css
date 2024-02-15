@@ -32,7 +32,7 @@ nav,
 }
 
 nav {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 17vh;
 }
@@ -41,4 +41,26 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+  -moz-text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
 }
