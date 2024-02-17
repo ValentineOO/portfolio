@@ -179,7 +179,7 @@ section {
   height: 80vh;
 }
 
-.section-pic_container {
+.section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
@@ -274,3 +274,4 @@ section {
 .btn-container {
   gap: 1rem;
 }
+
