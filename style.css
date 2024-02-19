@@ -20,7 +20,6 @@ p {
 }
 
 /* TRANSITION */
-
 a,
 .btn {
   transition: all 300ms ease;
@@ -51,7 +50,9 @@ a {
   text-decoration-color: white;
 }
 
-a:hover {
+a:hover
+/* li:hover  */
+{
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
@@ -314,19 +315,64 @@ section {
   margin: auto 0;
 }
 
-#experience{
+#experience {
   position: relative;
 }
 
-.experience:sub-title{
+.experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container{
+.experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
 }
