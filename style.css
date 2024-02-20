@@ -50,9 +50,8 @@ a {
   text-decoration-color: white;
 }
 
-a:hover
-/* li:hover  */
-{
+/* a:hover */
+li:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
