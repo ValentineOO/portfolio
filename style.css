@@ -63,6 +63,7 @@ nav,
 
 nav {
   justify-content: space-around;
+  /* align-items: center; */
   height: 17vh;
 }
 
@@ -88,18 +89,18 @@ a {
 
 p a:hover,
 li a:hover {
-  /*color: grey;
-  */
+  color: var(--primary-color-3);
+ 
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: var(--secondary-color);
-  -moz-text-decoration-color: var(--secondary-color);
+  text-decoration-color: var(--primary-color-3);
+  -moz-text-decoration-color: var(--primary-color-3);
 }
 
 nav a:hover {
-  color: var(--secondary-color);
-  text-decoration-color: var(--secondary-color);
-  -moz-text-decoration-color: var(--secondary-color);
+  color: var(--primary-color-3);
+  text-decoration-color: var(--primary-color-3);
+  -moz-text-decoration-color: var(--primary-color-3);
 }
 
 .logo {
