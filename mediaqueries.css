@@ -10,6 +10,18 @@
   #projects {
     height: fit-content;
   }
+
+  #projects {
+    margin-top: 8rem;
+  }
+
+  #experience{
+    margin-top: 5rem;
+  }
+
+  #about {
+    margin-top: -6rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -56,6 +68,15 @@
     height: 83vh;
     margin-bottom: 0;
   }
+
+  #about {
+    margin-top: -6rem;
+  }
+
+  #projects{
+    margin-top: -0.05rem;
+  }
+
   article {
     font-size: 1rem;
   }
