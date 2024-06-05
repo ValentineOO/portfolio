@@ -330,8 +330,14 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 
+.profile-picture{
+  border-radius: 50%;
+
+}
 .arrow {
   position: absolute;
   right: -5rem;
