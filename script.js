@@ -5,12 +5,32 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
+// Close the hamburger menu when clicking anywhere on the screen
+document.addEventListener("click", function (event) {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  if (!menu.contains(event.target) && !icon.contains(event.target)) {
+    menu.classList.remove("open");
+    icon.classList.remove("open");
+  }
+});
+
+// Stop propagation when clicking on the hamburger icon
+document
+  .querySelector(".hamburger-icon")
+  .addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
+
 const btn = document.getElementById("modeToggle");
 const btn2 = document.getElementById("modeToggle2");
 const themeIcons = document.querySelectorAll(".icon");
 const currentTheme = localStorage.getItem("theme");
 
-if (currentTheme === "dark") {
+// Set dark theme as the default theme
+if (!currentTheme) {
+  setDarkMode();
+} else if (currentTheme === "dark") {
   setDarkMode();
 }
 

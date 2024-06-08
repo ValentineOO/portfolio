@@ -74,7 +74,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 nav li:last-child {
@@ -94,7 +94,7 @@ a {
 p a:hover,
 li a:hover {
   color: var(--primary-color-3);
- 
+
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: var(--primary-color-3);
@@ -160,7 +160,7 @@ nav a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--secondary-color);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -327,16 +327,17 @@ section {
 .about-details-container {
   display: flex;
 }
-
-.about-pic {
+.text-container {
+  margin-top: -21rem;
+}
+/* .about-pic {
   border-radius: 2rem;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-}
+} */
 
-.profile-picture{
+.profile-picture {
   border-radius: 50%;
-
 }
 .arrow {
   position: absolute;
@@ -369,6 +370,10 @@ section {
   position: relative;
 }
 
+#experience {
+  margin-top: -20rem;
+}
+
 .experience-sub-title {
   color: var(--secondary-color);
   font-weight: 600;
@@ -394,7 +399,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   gap: 0.5rem;
 }
 
