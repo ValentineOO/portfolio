@@ -328,17 +328,13 @@ section {
   display: flex;
 }
 .text-container {
-  margin-top: -21rem;
+  margin-top: -18rem;
 }
-/* .about-pic {
-  border-radius: 2rem;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-} */
 
 .profile-picture {
   border-radius: 50%;
 }
+
 .arrow {
   position: absolute;
   right: -5rem;
@@ -371,7 +367,7 @@ section {
 }
 
 #experience {
-  margin-top: -20rem;
+  margin-top: -15rem;
 }
 
 .experience-sub-title {
@@ -399,7 +395,6 @@ section {
 article {
   display: flex;
   width: 10rem;
-  /* justify-content: space-around; */
   gap: 0.5rem;
 }
 
