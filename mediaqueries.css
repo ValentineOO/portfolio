@@ -12,11 +12,19 @@
   }
 
   #projects {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   #about {
     margin-top: -8rem;
+  }
+
+  .text-container {
+    margin-top: -20rem;
+  }
+
+  #experience {
+    margin-top: -18rem;
   }
 }
 
@@ -89,17 +97,18 @@
   footer {
     height: 40vh;
   }
+
+  #contact {
+    margin-top: -5rem;
+  }
+
   #profile {
     height: 83vh;
     margin-bottom: 0;
   }
 
   #about {
-    margin-top: 12rem;
-  }
-
-  #projects {
-    margin-top: rem;
+    margin-top: -12rem;
   }
 
   article {
