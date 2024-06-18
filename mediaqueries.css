@@ -156,3 +156,9 @@
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #about {
+    margin-top: -5rem;
+  }
+}
